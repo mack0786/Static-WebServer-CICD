@@ -1,4 +1,4 @@
-...
+---
   hosts: webservers
   became: true
 
@@ -23,4 +23,4 @@
       copy:
         src: index.html
         des: /var/www/html/
-...
+---
