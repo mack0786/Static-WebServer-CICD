@@ -1,7 +1,7 @@
 ---
 - hosts: webservers
-  became: true
-  task:
+  become: true
+  tasks:
     - name: Install Packages
       apt:
         name: Install apache2
@@ -14,7 +14,7 @@
 
     - name: Add Firewall Rule
       ufw:
-        rule: Allow
+        rule: allow
         port: 80
         proto: tcp
 
