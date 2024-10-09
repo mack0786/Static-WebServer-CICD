@@ -22,5 +22,5 @@
     - name: Deploying Static Website
       copy:
         src: index.html
-        des: /var/www/html/
+        dest: /var/www/html/
 ...
