@@ -1,1 +1,1 @@
-# Static-WebServer-CICD
+# Static-Restaurant-Website-CICD
